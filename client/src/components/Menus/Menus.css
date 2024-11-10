@@ -19,4 +19,10 @@
 }
 .nav-link svg{
     margin-right: 10px;
+    font-size: 2em;
+}
+.nav-link:hover{
+    color: #f29f67;
+    font-size: large;
+    /* background-color: gray; */
 }
