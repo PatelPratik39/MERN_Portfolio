@@ -2,23 +2,23 @@
     height: 300px;
     color: white;
     /* background-color: black; */
-    margin-left: 150px;
-}
-
-.home-content{
-    padding: 5px;
-    padding-top: 80px;
-    /* margin-left: 150px;  */
+    /* margin-left: 150px; */
 }
 
 .home-content h2{
+    padding: 5px;
+    /* padding-top: 80px; */
+    margin-left: 150px; 
+}
+
+.home-content h1{
     /* color: #e0b50f; */
     color: #f29f67;
-    /* padding: 10px; */
-    /* margin-left: 150px;  */
+    padding-top: 80px;
+    margin-left: 150px; 
 }
 .home-buttons{
-    /* margin-left: 150px; */
+    margin-left: 150px;
 }
 .home-buttons .btn-hire{
     background-color: #3b8ff3;

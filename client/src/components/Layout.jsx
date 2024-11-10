@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Home from "../pages/Home";
+import Home from "../pages/Home/Home";
 import "./layout.css";
 import { AiOutlineDoubleLeft } from "react-icons/ai";
 import { AiOutlineDoubleRight } from "react-icons/ai";
