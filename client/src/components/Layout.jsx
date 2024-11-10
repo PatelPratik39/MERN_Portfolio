@@ -24,7 +24,7 @@ const Layout = () => {
               )}
             </p>
           </div>
-            <Menus toggle={toggle} />
+          <Menus toggle={toggle} />
         </div>
         <div className="container">
           <Home />
