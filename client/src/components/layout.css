@@ -8,6 +8,10 @@
     width: 90px;
 }
 
+.sidebar-toggle{
+    width: 230px;
+}
+
 .sidebar-toggle-icons {
     display: flex;
     align-items: right;
