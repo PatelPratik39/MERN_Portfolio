@@ -1,5 +1,6 @@
 import Layout from "./components/Layout";
 import About from "./pages/About/About";
+import TechStack from "./pages/TechStack/TechStack";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <Layout />
         <div className="container">
           <About />
+          <TechStack />
         </div>
       </div>
     </>
