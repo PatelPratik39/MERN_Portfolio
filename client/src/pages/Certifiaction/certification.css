@@ -1,28 +1,22 @@
-.experience {
+.certification {
     /* margin-left: 140px; */
-    /* margin: 50px 0px; */
-   /* padding: 60px 0px; */
+    padding: 10px 0px;
+    margin: 50px 0px;
     background-color: rgb(128,128,128, 0.101);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-.experience hr{
+.certification hr{
     color: #138781;
     width: 400px;
     margin: 10px auto;
 }
-.experience h2 {
+.certification h2 {
     font-weight: bold;
     color: #138781;
 }
-.work {
-    padding: 60px 0px;
-}
-.experience .vertical-timeline-element-title{
+.certification .vertical-timeline-element-title{
     color:#138781;
 }
-.experience .vertical-timeline-element-subtitle{
-    color : #1e1e2c;
-}
-.experience .vertical-timeline-element-city{
-    color: #f29f67;;
+.certification .vertical-timeline-element-subtitle{
+    color: #f29f67;
 }

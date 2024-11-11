@@ -7,7 +7,8 @@ import {
   FaPython,
   FaTools,
   FaTasks,
-  FaProjectDiagram
+  FaProjectDiagram,
+  FaCloud
 } from "react-icons/fa";
 import { AiOutlineRobot, AiOutlineApi } from "react-icons/ai";
 import {
@@ -38,11 +39,15 @@ import {
   SiJest,
   SiCucumber,
   SiThealgorithms,
-  SiSwagger
+  SiSwagger,
+  SiTensorflow
 } from "react-icons/si";
 import { BsFiletypeCss, BsBootstrap } from "react-icons/bs";
 
 export const TechStackList = [
+   { _id: 46, name: "SpringCloud", icon: FaCloud },
+  { _id: 45, name: "SpringAI", icon: SiSpring },
+  { _id: 47, name: "MachineLearning", icon: SiTensorflow },
   { _id: 42, name: "Data Structures", icon: FaProjectDiagram },
   { _id: 1, name: "Java", icon: FaJava },
   { _id: 2, name: "JavaScript", icon: SiJavascript },
@@ -85,7 +90,7 @@ export const TechStackList = [
   { _id: 39, name: "Algorithem", icon: SiThealgorithms },
   { _id: 40, name: "JUnit", icon: FaJava },
   { _id: 41, name: "Agile Methodology", icon: FaTasks },
-  { _id: 45, name: "CSS / SCSS", icon: BsFiletypeCss },
   { _id: 43, name: "Bootstrap", icon: BsBootstrap },
-  { _id: 44, name: "Swagger", icon: SiSwagger }
+  { _id: 44, name: "Swagger", icon: SiSwagger },
+ 
 ];

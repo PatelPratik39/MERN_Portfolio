@@ -2,6 +2,7 @@
     margin: 30px auto;
     padding: 20px;
     /* margin-left: 100px; */
+     background-color: rgb(128,128,128, 0.101);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .about-img img{
@@ -25,8 +26,8 @@
     align-items: center;
 } */
 
-.about-content h1{
-    color: gray;
+.about-content h2{
+    color: #138781;
     font-family: "Gill Sans", sans-serif;
     /* font-family: cursive; */
     border-bottom: 2px solid gray;

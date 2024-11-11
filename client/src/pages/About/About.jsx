@@ -10,9 +10,9 @@ const About = () => {
             <img src="./profile.png" alt="Profile_Pic" />
           </div>
           <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content ">
-            <h1 className="text-uppercase">
+            <h2 className="text-uppercase">
               <b>About Me</b>
-            </h1>
+            </h2>
             <p>
               Hello! I’m Pratik Patel, a software engineer with over four years
               of experience in creating high-quality, scalable web applications.

@@ -1,5 +1,6 @@
 import Layout from "./components/Layout";
 import About from "./pages/About/About";
+import Certification from "./pages/Certifiaction/Certification";
 import Education from "./pages/Education/Education";
 import Experience from "./pages/Experience/Experience";
 import Projects from "./pages/Projects/Projects";
@@ -15,6 +16,7 @@ function App() {
           <TechStack />
           <Experience />
           <Education />
+          <Certification />
           <Projects />
         </div>
       </div>

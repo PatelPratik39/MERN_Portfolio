@@ -50,10 +50,10 @@ const Menus = ({ toggle }) => {
                 <FcVideoProjector />
                 Projects
               </div>
-              <div className="nav-link">
+              {/* <div className="nav-link">
                 <FcVoicePresentation />
                 Testimonial
-              </div>
+              </div> */}
               <div className="nav-link">
                 <FcManager />
                 Contact
@@ -86,9 +86,9 @@ const Menus = ({ toggle }) => {
               <div className="nav-link">
                 <FcVideoProjector title="Projects" />
               </div>
-              <div className="nav-link">
+              {/* <div className="nav-link">
                 <FcVoicePresentation title="Testimonial" />
-              </div>
+              </div> */}
               <div className="nav-link">
                 <FcManager title="Contact" />
               </div>
