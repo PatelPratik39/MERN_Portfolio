@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./education.css";
 import { IoMdSchool } from "react-icons/io";
 import {
