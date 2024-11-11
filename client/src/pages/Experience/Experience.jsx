@@ -91,7 +91,7 @@ const Experience = () => {
                 <br />- Collaborated closely with cross-functional teams to
                 troubleshoot issues and release key application updates on
                 schedule.
-                <br />- Awarded the "Domain Maestro" for exceptional
+                <br />- Awarded the &quot;Domain Maestro&quot; for exceptional
                 contributions and domain expertise.
               </p>
               <p>
