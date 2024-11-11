@@ -9,8 +9,8 @@ const About = () => {
           <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img">
             <img src="./profile.png" alt="Profile_Pic" />
           </div>
-          <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content">
-            <h1>
+          <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content ">
+            <h1 className="text-uppercase">
               <b>About Me</b>
             </h1>
             <p>

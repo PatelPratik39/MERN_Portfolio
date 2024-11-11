@@ -7,6 +7,7 @@ import {
   FaDocker,
   FaPython
 } from "react-icons/fa";
+import { BsFiletypeCss, BsBootstrap } from "react-icons/bs";
 import {
   SiJavascript,
   SiTypescript,

@@ -6,7 +6,8 @@ import {
   FaDocker,
   FaPython,
   FaTools,
-  FaTasks
+  FaTasks,
+  FaProjectDiagram
 } from "react-icons/fa";
 import { AiOutlineRobot, AiOutlineApi } from "react-icons/ai";
 import {
@@ -35,11 +36,14 @@ import {
   SiRabbitmq,
   SiSplunk,
   SiJest,
-  SiMocha,
-  SiCucumber
+  SiCucumber,
+  SiThealgorithms,
+  SiSwagger
 } from "react-icons/si";
+import { BsFiletypeCss, BsBootstrap } from "react-icons/bs";
 
 export const TechStackList = [
+  { _id: 42, name: "Data Structures", icon: FaProjectDiagram },
   { _id: 1, name: "Java", icon: FaJava },
   { _id: 2, name: "JavaScript", icon: SiJavascript },
   { _id: 3, name: "TypeScript", icon: SiTypescript },
@@ -78,7 +82,10 @@ export const TechStackList = [
   { _id: 36, name: "RabbitMQ", icon: SiRabbitmq },
   { _id: 37, name: "Postman", icon: FaTools },
   { _id: 38, name: "Jest", icon: SiJest },
-  { _id: 39, name: "Mocha", icon: SiMocha },
-  { _id: 40, name: "JUnit", icon: FaJava }, // Using Java icon to represent JUnit
-  { _id: 41, name: "Agile Methodology", icon: FaTasks }
+  { _id: 39, name: "Algorithem", icon: SiThealgorithms },
+  { _id: 40, name: "JUnit", icon: FaJava },
+  { _id: 41, name: "Agile Methodology", icon: FaTasks },
+  { _id: 45, name: "CSS / SCSS", icon: BsFiletypeCss },
+  { _id: 43, name: "Bootstrap", icon: BsBootstrap },
+  { _id: 44, name: "Swagger", icon: SiSwagger }
 ];
