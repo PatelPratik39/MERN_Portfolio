@@ -24,10 +24,10 @@ const Contact = () => {
                   <div className="row">
                     <h6 className="icons">
                       Contact with
-                      <BsLinkedin color="#0077B5" size={30} className="ms-2" />
-                      <BsGithub color="#24292e" size={30} className="ms-2" />
-                      <BsInstagram color="#962fbf" size={30} className="ms-2" />
-                      <BsMedium color="#0000CD" size={30} className="ms-2" />
+                      <BsLinkedin color="#0077B5" size={30} className="ms-4" />
+                      <BsGithub color="#24292e" size={30} className="ms-4" />
+                      <BsInstagram color="#962fbf" size={30} className="ms-4" />
+                      <BsMedium color="#24292e" size={30} className="ms-4" />
                     </h6>
                   </div>
 

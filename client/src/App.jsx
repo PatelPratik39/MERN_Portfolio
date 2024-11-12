@@ -6,6 +6,7 @@ import Education from "./pages/Education/Education";
 import Experience from "./pages/Experience/Experience";
 import Projects from "./pages/Projects/Projects";
 import TechStack from "./pages/TechStack/TechStack";
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   return (
@@ -22,8 +23,15 @@ function App() {
           <Contact />
         </div>
         <div className="footer">
-          <h4 className="text-center">Developed by Pratik Patel 2024 &copy;</h4>
+          <h4 className="text-center" style={{ color: "#138781" }}>
+            Developed by Pratik Patel 2024 &copy;
+          </h4>
         </div>
+        <ScrollToTop
+          smooth
+          color="white"
+          style={{ backgroundColor: "#138781", borderRadius: "80px" }}
+        />
       </div>
     </>
   );

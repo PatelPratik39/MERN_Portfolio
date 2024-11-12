@@ -21,7 +21,7 @@
     margin-top: 20px;
 }
 .home-buttons .btn-hire{
-    background-color: #3b8ff3;
+    background-color: #138781;
     color: white;
     width: 160px;
 }
@@ -29,7 +29,7 @@
     /* font-size: large; */
     font-weight: bold;
     background-color: white;
-    color: #3b8ff3;
+    color: #138781;
     width: 200px;
     transition: 1s;
 }
