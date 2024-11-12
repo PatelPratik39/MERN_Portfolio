@@ -17,9 +17,17 @@ import { useState } from "react";
 const MobileView = () => {
   const [open, setOpen] = useState(false);
 
+  //   Handle Open
+
   const handleOpen = () => {
     setOpen(!open);
   };
+
+  //   Handle Menu Click
+  const handleMenuClick = () => {
+    setOpen(false);
+  };
+
   return (
     <>
       <div className="mobile-nav">
@@ -51,6 +59,7 @@ const MobileView = () => {
                     smooth={true}
                     offset={-100}
                     duration={100}
+                    onClick={handleMenuClick}
                   >
                     <FcHome />
                     Home
@@ -63,6 +72,7 @@ const MobileView = () => {
                     smooth={true}
                     offset={-100}
                     duration={100}
+                    onClick={handleMenuClick}
                   >
                     <FcAbout />
                     About
@@ -76,6 +86,7 @@ const MobileView = () => {
                     smooth={true}
                     offset={-100}
                     duration={100}
+                    onClick={handleMenuClick}
                   >
                     <FcAutomatic />
                     Tech Stack
@@ -88,6 +99,7 @@ const MobileView = () => {
                     smooth={true}
                     offset={-100}
                     duration={100}
+                    onClick={handleMenuClick}
                   >
                     <FcPortraitMode />
                     Work Experience
@@ -100,6 +112,7 @@ const MobileView = () => {
                     smooth={true}
                     offset={-100}
                     duration={100}
+                    onClick={handleMenuClick}
                   >
                     <FcReading />
                     Education
@@ -112,6 +125,7 @@ const MobileView = () => {
                     smooth={true}
                     offset={-100}
                     duration={100}
+                    onClick={handleMenuClick}
                   >
                     <GiAchievement />
                     Certifiactions
@@ -124,6 +138,7 @@ const MobileView = () => {
                     smooth={true}
                     offset={-100}
                     duration={100}
+                    onClick={handleMenuClick}
                   >
                     <FcVideoProjector />
                     Projects
@@ -136,6 +151,7 @@ const MobileView = () => {
                     smooth={true}
                     offset={-100}
                     duration={100}
+                    onClick={handleMenuClick}
                   >
                     <FcManager />
                     Contact
