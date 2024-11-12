@@ -7,11 +7,14 @@ import Experience from "./pages/Experience/Experience";
 import Projects from "./pages/Projects/Projects";
 import TechStack from "./pages/TechStack/TechStack";
 import ScrollToTop from "react-scroll-to-top";
+import { useTheme } from "./context/ThemeContext";
+import './index.css'
 
 function App() {
+  const [theme] = useTheme();
   return (
     <>
-      <div>
+      <div id={theme}>
         <Layout />
         <div className="container">
           <About />
@@ -22,17 +25,17 @@ function App() {
           <Projects />
           <Contact />
         </div>
-        <div className="footer">
+        <div className="footer pb-3 ms-3">
           <h4 className="text-center" style={{ color: "#138781" }}>
-            Developed by Pratik Patel 2024 &copy;
+            🧑🏻‍💻 Developed by Pratik Patel 2024 &copy;
           </h4>
         </div>
-        <ScrollToTop
-          smooth
-          color="white"
-          style={{ backgroundColor: "#138781", borderRadius: "80px" }}
-        />
       </div>
+      <ScrollToTop
+        smooth
+        color="white"
+        style={{ backgroundColor: "#138781", borderRadius: "80px" }}
+      />
     </>
   );
 }

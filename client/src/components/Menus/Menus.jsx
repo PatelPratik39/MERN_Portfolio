@@ -11,6 +11,7 @@ import {
 import "./Menus.css";
 import { Link } from "react-scroll";
 
+// eslint-disable-next-line react/prop-types
 const Menus = ({ toggle }) => {
   return (
     <>

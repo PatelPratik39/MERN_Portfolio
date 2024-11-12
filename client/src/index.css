@@ -3,3 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Dark Mode */
+
+#dark {
+  background-color: rgb(203, 199, 199);
+  color: white;
+}
