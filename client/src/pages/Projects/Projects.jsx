@@ -4,20 +4,20 @@ import "./project.css";
 const Projects = () => {
   return (
     <>
-      <div className="container project">
+      <div className="container project" id="projects">
         <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
           Projects
         </h2>
         <hr />
         <p className="pb-3 text-center">
-          "Explore my portfolio of technical projects where I’ve combined
+          &ldquo; Explore my portfolio of technical projects where I’ve combined
           front-end and back-end technologies to create robust, user-centric
           applications. From seamless user interfaces to efficient data
           handling, each project reflects my passion for building scalable
           solutions with technologies like Java, Spring Boot, React, and
           microservices. Dive into the details to see how I leverage modern
           frameworks, cloud services, and data structures to solve complex
-          problems and enhance user experiences."
+          problems and enhance user experiences. &rdquo;
         </p>
         {/* card Design */}
         <div

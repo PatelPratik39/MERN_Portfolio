@@ -11,7 +11,7 @@ const Education = () => {
   // npm i react-vertical-timeline-component
   return (
     <>
-      <div className="container education">
+      <div className="container education" id="education">
         <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
           Education
         </h2>

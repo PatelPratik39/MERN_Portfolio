@@ -6,7 +6,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <>
-      <div className="container-fluid home-container">
+      <div className="container-fluid home-container" id="home">
         <div className="container home-content">
           <h1>Hi👋🏻, I'm a </h1>
           {/* Using Typewrite-effect pakage: npm i typewriter-effect */}

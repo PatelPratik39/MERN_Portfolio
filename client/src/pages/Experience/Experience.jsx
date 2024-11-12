@@ -10,7 +10,7 @@ import { MdOutlineWork } from "react-icons/md";
 const Experience = () => {
   return (
     <>
-      <div className="experience">
+      <div className="experience" id="experience">
         <div className="container work">
           <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
             Work Experience
@@ -52,8 +52,8 @@ const Experience = () => {
                 contributions and domain expertise.
               </p>
               <p>
-                <strong>Tech Stack:</strong> Java, Springboot, JavaScript, ReactJS,
-                Angular, Selenium, Jenkins, AWS, RESTful APIs, NodeJS
+                <strong>Tech Stack:</strong> Java, Springboot, JavaScript,
+                ReactJS, Angular, Selenium, Jenkins, AWS, RESTful APIs, NodeJS
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -95,9 +95,9 @@ const Experience = () => {
                 contributions and domain expertise.
               </p>
               <p>
-                <strong>Tech Stack:</strong> Java,Springboot, ReactJS, Selenium, AWS,
-                Jenkins, REST APIs, Docker, MongoDB, Kafka, Cassandra, Rally,
-                Confluence
+                <strong>Tech Stack:</strong> Java,Springboot, ReactJS, Selenium,
+                AWS, Jenkins, REST APIs, Docker, MongoDB, Kafka, Cassandra,
+                Rally, Confluence
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement

@@ -1,4 +1,3 @@
-import React from "react";
 import { GiAchievement } from "react-icons/gi";
 import {
   FcHome,
@@ -7,10 +6,10 @@ import {
   FcAutomatic,
   FcReading,
   FcVideoProjector,
-  FcVoicePresentation,
   FcManager
 } from "react-icons/fc";
 import "./Menus.css";
+import { Link } from "react-scroll";
 
 const Menus = ({ toggle }) => {
   return (
@@ -23,40 +22,101 @@ const Menus = ({ toggle }) => {
           <div className="nav-items">
             <div className="nav-item">
               <div className="nav-link">
-                <FcHome />
-                Home
+                <Link
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <FcHome />
+                  Home
+                </Link>
               </div>
               <div className="nav-link">
-                <FcAbout />
-                About
+                <Link
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <FcAbout />
+                  About
+                </Link>
+              </div>
+
+              <div className="nav-link">
+                <Link
+                  to="techstack"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <FcAutomatic />
+                  Tech Stack
+                </Link>
               </div>
               <div className="nav-link">
-                <FcPortraitMode />
-                Work Experience
+                <Link
+                  to="experience"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <FcPortraitMode />
+                  Work Experience
+                </Link>
               </div>
               <div className="nav-link">
-                <FcAutomatic />
-                Tech Stack
+                <Link
+                  to="education"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <FcReading />
+                  Education
+                </Link>
               </div>
               <div className="nav-link">
-                <FcReading />
-                Education
+                <Link
+                  to="certification"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <GiAchievement />
+                  Certifiactions
+                </Link>
               </div>
               <div className="nav-link">
-                <GiAchievement />
-                Certifiactions
+                <Link
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <FcVideoProjector />
+                  Projects
+                </Link>
               </div>
               <div className="nav-link">
-                <FcVideoProjector />
-                Projects
-              </div>
-              {/* <div className="nav-link">
-                <FcVoicePresentation />
-                Testimonial
-              </div> */}
-              <div className="nav-link">
-                <FcManager />
-                Contact
+                <Link
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <FcManager />
+                  Contact
+                </Link>
               </div>
             </div>
           </div>
@@ -66,31 +126,93 @@ const Menus = ({ toggle }) => {
           <div className="nav-items">
             <div className="nav-item" key="icons-only">
               <div className="nav-link">
-                <FcHome title="Home" />
+                <Link
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <FcHome title="Home" />
+                </Link>
               </div>
               <div className="nav-link">
-                <FcAbout title="About" />
+                <Link
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <FcAbout title="About" />
+                </Link>
+              </div>
+
+              <div className="nav-link">
+                <Link
+                  to="techstack"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <FcAutomatic title="Tech Stack" />
+                </Link>
               </div>
               <div className="nav-link">
-                <FcPortraitMode title="Work Experience" />
+                <Link
+                  to="experience"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <FcPortraitMode title="Work Experience" />
+                </Link>
               </div>
               <div className="nav-link">
-                <FcAutomatic title="Tech Stack" />
+                <Link
+                  to="education"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <FcReading title="Education" />
+                </Link>
               </div>
               <div className="nav-link">
-                <FcReading title="Education" />
+                <Link
+                  to="certification"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <GiAchievement title="Certification" />
+                </Link>
               </div>
               <div className="nav-link">
-                <GiAchievement title="Certification" />
+                <Link
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <FcVideoProjector title="Projects" />
+                </Link>
               </div>
               <div className="nav-link">
-                <FcVideoProjector title="Projects" />
-              </div>
-              {/* <div className="nav-link">
-                <FcVoicePresentation title="Testimonial" />
-              </div> */}
-              <div className="nav-link">
-                <FcManager title="Contact" />
+                <Link
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <FcManager title="Contact" />
+                </Link>
               </div>
             </div>
           </div>

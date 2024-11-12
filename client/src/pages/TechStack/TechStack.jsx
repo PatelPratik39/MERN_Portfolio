@@ -1,12 +1,14 @@
-import React from "react";
+
 import "./techStack.css";
 import { TechStackList } from "../../utils/TechStackList.jsx";
 
 const TechStack = () => {
   return (
     <>
-      <div className="container techstack">
-        <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">Technology Stack</h2>
+      <div className="container techstack" id="techstack">
+        <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
+          Technology Stack
+        </h2>
         <hr />
         <p className="pb-3 text-center">
           👉🏻 Including programming Language, Frameworks, Database, Front-end and
