@@ -10,12 +10,14 @@ import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./context/ThemeContext";
 import Tada from "react-reveal/Tada";
 import "./index.css";
+import MobileView from "./components/MobileView/MobileView";
 
 function App() {
   const [theme] = useTheme();
   return (
     <>
       <div id={theme}>
+        <MobileView />
         <Layout />
         <div className="container">
           <About />
