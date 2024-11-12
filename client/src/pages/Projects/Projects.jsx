@@ -1,4 +1,4 @@
-import React from "react";
+import Spin from "react-reveal/Spin";
 import "./project.css";
 
 const Projects = () => {
@@ -26,209 +26,218 @@ const Projects = () => {
           data-bs-ride="carousel"
           data-bs-interval="5000"
         >
-          <div className="carousel-inner">
-            {/* First Slide with 3 Projects */}
-            <div className="carousel-item active">
-              <div className="row" id="ads">
-                <div className="col-md-4">
-                  <div className="card rounded">
-                    <div className="card-image">
-                      <span className="card-notify-badge">MERN Full Stack</span>
-                      <img src="/Blogzz_HomePage.png" alt="project1" />
-                    </div>
-                    <div className="card-image-overly m-auto mt-3">
-                      <span className="card-detail-badge">NodeJs</span>
-                      <span className="card-detail-badge">ExpressJs</span>
-                      <span className="card-detail-badge">ReactJs</span>
-                      <span className="card-detail-badge">MongoDB</span>
-                    </div>
-                    <div className="card-body text-center">
-                      <div className="m-auto ad-title ">
-                        <h5 className="text-uppercase">BlogZ App</h5>
+          <Spin>
+            <div className="carousel-inner">
+              {/* First Slide with 3 Projects */}
+              <div className="carousel-item active">
+                <div className="row" id="ads">
+                  <div className="col-md-4">
+                    <div className="card rounded">
+                      <div className="card-image">
+                        <span className="card-notify-badge">
+                          MERN Full Stack
+                        </span>
+                        <img src="/Blogzz_HomePage.png" alt="project1" />
                       </div>
-                      <a
-                        className="ad-btn"
-                        href="https://blogz-capstone-37d7b6e650dc.herokuapp.com/login"
-                      >
-                        {" "}
-                        View
-                      </a>
+                      <div className="card-image-overly m-auto mt-3">
+                        <span className="card-detail-badge">NodeJs</span>
+                        <span className="card-detail-badge">ExpressJs</span>
+                        <span className="card-detail-badge">ReactJs</span>
+                        <span className="card-detail-badge">MongoDB</span>
+                      </div>
+                      <div className="card-body text-center">
+                        <div className="m-auto ad-title ">
+                          <h5 className="text-uppercase">BlogZ App</h5>
+                        </div>
+                        <a
+                          className="ad-btn"
+                          href="https://blogz-capstone-37d7b6e650dc.herokuapp.com/login"
+                        >
+                          {" "}
+                          View
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="card rounded">
+                      <div className="card-image">
+                        <span className="card-notify-badge">
+                          MERN Full Stack
+                        </span>
+                        <img src="home1.png" alt="project2" />
+                      </div>
+                      <div className="card-image-overly m-auto mt-3">
+                        <span className="card-detail-badge">NodeJs</span>
+                        <span className="card-detail-badge">ExpressJs</span>
+                        <span className="card-detail-badge">ReactJs</span>
+                        <span className="card-detail-badge">MongoDB</span>
+                      </div>
+                      <div className="card-body text-center">
+                        <div className="m-auto ad-title ">
+                          <h5 className="text-uppercase">Reel Review App</h5>
+                        </div>
+                        <a
+                          className="ad-btn"
+                          href="https://reelreviewapp.onrender.com"
+                        >
+                          {" "}
+                          View
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="card rounded">
+                      <div className="card-image">
+                        <span className="card-notify-badge">
+                          Java Full Stack
+                        </span>
+                        <img src="image6.png" alt="project3" />
+                      </div>
+                      <div className="card-image-overly m-auto mt-3">
+                        <span className="card-detail-badge">Java</span>
+                        <span className="card-detail-badge">SpringBoot</span>
+                        <span className="card-detail-badge">ReactJs</span>
+                        <span className="card-detail-badge">Docker</span>
+                        <span className="card-detail-badge">OpenAI</span>
+                        {/* <span className="card-detail-badge">Olama</span> */}
+                      </div>
+                      <div className="card-body text-center">
+                        <div className="m-auto ad-title ">
+                          <h5 className="text-uppercase">Tinder AI App</h5>
+                        </div>
+                        <a
+                          className="ad-btn"
+                          href="https://github.com/PatelPratik39/TinderApp_AI"
+                        >
+                          {" "}
+                          View
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-md-4">
-                  <div className="card rounded">
-                    <div className="card-image">
-                      <span className="card-notify-badge">MERN Full Stack</span>
-                      <img src="home1.png" alt="project2" />
-                    </div>
-                    <div className="card-image-overly m-auto mt-3">
-                      <span className="card-detail-badge">NodeJs</span>
-                      <span className="card-detail-badge">ExpressJs</span>
-                      <span className="card-detail-badge">ReactJs</span>
-                      <span className="card-detail-badge">MongoDB</span>
-                    </div>
-                    <div className="card-body text-center">
-                      <div className="m-auto ad-title ">
-                        <h5 className="text-uppercase">Reel Review App</h5>
+              </div>
+              <div className="carousel-item">
+                <div className="row" id="ads">
+                  <div className="col-md-4">
+                    <div className="card rounded">
+                      <div className="card-image">
+                        <span className="card-notify-badge">MERN Stack</span>
+                        <img src="image3.png" alt="project4" />
                       </div>
-                      <a
-                        className="ad-btn"
-                        href="https://reelreviewapp.onrender.com"
-                      >
-                        {" "}
-                        View
-                      </a>
+                      <div className="card-image-overly m-auto mt-3">
+                        <span className="card-detail-badge">NodeJs</span>
+                        <span className="card-detail-badge">ExpressJs</span>
+                        <span className="card-detail-badge">ReactJs</span>
+                        <span className="card-detail-badge">MongoDB</span>
+                      </div>
+                      <div className="card-body text-center">
+                        <div className="m-auto ad-title ">
+                          <h5 className="text-uppercase">Url Shortner App</h5>
+                        </div>
+                        <a
+                          className="ad-btn"
+                          href="https://github.com/PatelPratik39/UrlShortner_MERN"
+                        >
+                          {" "}
+                          View
+                        </a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className="col-md-4">
-                  <div className="card rounded">
-                    <div className="card-image">
-                      <span className="card-notify-badge">Java Full Stack</span>
-                      <img src="image6.png" alt="project3" />
-                    </div>
-                    <div className="card-image-overly m-auto mt-3">
-                      <span className="card-detail-badge">Java</span>
-                      <span className="card-detail-badge">SpringBoot</span>
-                      <span className="card-detail-badge">ReactJs</span>
-                      <span className="card-detail-badge">Docker</span>
-                      <span className="card-detail-badge">OpenAI</span>
-                      {/* <span className="card-detail-badge">Olama</span> */}
-                    </div>
-                    <div className="card-body text-center">
-                      <div className="m-auto ad-title ">
-                        <h5 className="text-uppercase">Tinder AI App</h5>
+                  <div className="col-md-4">
+                    <div className="card rounded">
+                      <div className="card-image">
+                        <span className="card-notify-badge">
+                          {" "}
+                          MERN Full Stack
+                        </span>
+                        <img src="image4.png" alt="project5" />
                       </div>
-                      <a
-                        className="ad-btn"
-                        href="https://github.com/PatelPratik39/TinderApp_AI"
-                      >
-                        {" "}
-                        View
-                      </a>
+                      <div className="card-image-overly m-auto mt-3">
+                        <span className="card-detail-badge">NodeJs</span>
+                        <span className="card-detail-badge">ExpressJs</span>
+                        <span className="card-detail-badge">ReactJs</span>
+                        <span className="card-detail-badge">MongoDB</span>
+                      </div>
+                      <div className="card-body text-center">
+                        <div className="m-auto ad-title ">
+                          <h5 className="text-uppercase">
+                            GenAI Image-Recipe Generator App
+                          </h5>
+                        </div>
+                        <a
+                          className="ad-btn"
+                          href="https://github.com/PatelPratik39/SpringAI"
+                        >
+                          {" "}
+                          View
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="card rounded">
+                      <div className="card-image">
+                        <span className="card-notify-badge">
+                          Java Full Stack
+                        </span>
+                        <img src="/store1.png" alt="project6" />
+                      </div>
+                      <div className="card-image-overly m-auto mt-3">
+                        <span className="card-detail-badge">Java</span>
+                        <span className="card-detail-badge">SpringBoot</span>
+                        <span className="card-detail-badge">ReactJs</span>
+                        <span className="card-detail-badge">TypeScript</span>
+                        <span className="card-detail-badge">Docker</span>
+                      </div>
+                      <div className="card-body text-center">
+                        <div className="m-auto ad-title ">
+                          <h5 className="text-uppercase">
+                            Sports Center Web App
+                          </h5>
+                        </div>
+                        <a
+                          className="ad-btn"
+                          href="https://github.com/PatelPratik39/SportCenterApp_SpringBoot_React"
+                        >
+                          {" "}
+                          View
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="carousel-item">
-              <div className="row" id="ads">
-                <div className="col-md-4">
-                  <div className="card rounded">
-                    <div className="card-image">
-                      <span className="card-notify-badge">MERN Stack</span>
-                      <img src="image3.png" alt="project4" />
-                    </div>
-                    <div className="card-image-overly m-auto mt-3">
-                      <span className="card-detail-badge">NodeJs</span>
-                      <span className="card-detail-badge">ExpressJs</span>
-                      <span className="card-detail-badge">ReactJs</span>
-                      <span className="card-detail-badge">MongoDB</span>
-                    </div>
-                    <div className="card-body text-center">
-                      <div className="m-auto ad-title ">
-                        <h5 className="text-uppercase">Url Shortner App</h5>
-                      </div>
-                      <a
-                        className="ad-btn"
-                        href="https://github.com/PatelPratik39/UrlShortner_MERN"
-                      >
-                        {" "}
-                        View
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4">
-                  <div className="card rounded">
-                    <div className="card-image">
-                      <span className="card-notify-badge">
-                        {" "}
-                        MERN Full Stack
-                      </span>
-                      <img src="image4.png" alt="project5" />
-                    </div>
-                    <div className="card-image-overly m-auto mt-3">
-                      <span className="card-detail-badge">NodeJs</span>
-                      <span className="card-detail-badge">ExpressJs</span>
-                      <span className="card-detail-badge">ReactJs</span>
-                      <span className="card-detail-badge">MongoDB</span>
-                    </div>
-                    <div className="card-body text-center">
-                      <div className="m-auto ad-title ">
-                        <h5 className="text-uppercase">
-                          GenAI Image-Recipe Generator App
-                        </h5>
-                      </div>
-                      <a
-                        className="ad-btn"
-                        href="https://github.com/PatelPratik39/SpringAI"
-                      >
-                        {" "}
-                        View
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4">
-                  <div className="card rounded">
-                    <div className="card-image">
-                      <span className="card-notify-badge">Java Full Stack</span>
-                      <img src="/store1.png" alt="project6" />
-                    </div>
-                    <div className="card-image-overly m-auto mt-3">
-                      <span className="card-detail-badge">Java</span>
-                      <span className="card-detail-badge">SpringBoot</span>
-                      <span className="card-detail-badge">ReactJs</span>
-                      <span className="card-detail-badge">TypeScript</span>
-                      <span className="card-detail-badge">Docker</span>
-                    </div>
-                    <div className="card-body text-center">
-                      <div className="m-auto ad-title ">
-                        <h5 className="text-uppercase">
-                          Sports Center Web App
-                        </h5>
-                      </div>
-                      <a
-                        className="ad-btn"
-                        href="https://github.com/PatelPratik39/SportCenterApp_SpringBoot_React"
-                      >
-                        {" "}
-                        View
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Carousel Controls */}
-          <button
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#projectCarousel"
-            data-bs-slide="prev"
-          >
-            <span
-              className="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#projectCarousel"
-            data-bs-slide="next"
-          >
-            <span
-              className="carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Next</span>
-          </button>
+            {/* Carousel Controls */}
+            <button
+              className="carousel-control-prev"
+              type="button"
+              data-bs-target="#projectCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                className="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button
+              className="carousel-control-next"
+              type="button"
+              data-bs-target="#projectCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                className="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">Next</span>
+            </button>
+          </Spin>
         </div>
       </div>
     </>

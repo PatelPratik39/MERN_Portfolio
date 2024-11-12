@@ -8,7 +8,8 @@ import Projects from "./pages/Projects/Projects";
 import TechStack from "./pages/TechStack/TechStack";
 import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./context/ThemeContext";
-import './index.css'
+import Tada from "react-reveal/Tada";
+import "./index.css";
 
 function App() {
   const [theme] = useTheme();
@@ -26,9 +27,12 @@ function App() {
           <Contact />
         </div>
         <div className="footer pb-3 ms-3">
+          <Tada>
+
           <h4 className="text-center" style={{ color: "#138781" }}>
             🧑🏻‍💻 Developed by Pratik Patel 2024 &copy;
           </h4>
+          </Tada>
         </div>
       </div>
       <ScrollToTop
