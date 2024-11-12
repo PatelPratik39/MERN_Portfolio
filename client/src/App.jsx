@@ -21,6 +21,9 @@ function App() {
           <Projects />
           <Contact />
         </div>
+        <div className="footer">
+          <h4 className="text-center">Developed by Pratik Patel 2024 &copy;</h4>
+        </div>
       </div>
     </>
   );
