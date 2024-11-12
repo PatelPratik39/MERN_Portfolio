@@ -22,7 +22,7 @@ const Home = () => {
         </div>
         <div className="container home-content">
           <Fade right>
-            <h1>Hi👋🏻, I'm a </h1>
+            <h1>Hi👋🏻, I&apos;m a </h1>
             {/* Using Typewrite-effect pakage: npm i typewriter-effect */}
             <h2>
               <Typewriter
@@ -40,7 +40,17 @@ const Home = () => {
           </Fade>
           <Fade bottom>
             <div className="home-buttons">
-              <button className="btn btn-hire">Hire Me</button>
+              <a
+                className="btn btn-hire"
+                href="sms:+16303038596"
+                rel="noreferrer"
+                target="_blank"
+                // onMouseDown={(e) => e.currentTarget.blur()}
+                onClick={(e) => e.currentTarget.blur()}
+              >
+                Hire Me
+              </a>
+              {/* <button className="btn btn-hire">Hire Me</button> */}
               {/* <button className="btn btn-cv">My Resume </button> */}
               <a
                 className="btn btn-cv"

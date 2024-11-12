@@ -26,3 +26,21 @@
 .experience .vertical-timeline-element-city{
     color: #f29f67;;
 }
+
+/* Mobile view */
+@media (max-width:600px){
+    .experience{
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+    }
+    .experience h2{
+        padding-top: 20px;
+    }
+    .experience hr{
+        width: 280px;
+    }
+    .experience {
+    
+   }
+}

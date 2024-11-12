@@ -87,3 +87,20 @@
   background-color: rgba(0, 0, 0, 0.5); /* Black with slight transparency */
   border-radius: 50%; /* Optional: make the icon circular */
 }
+
+@media (max-width:600px){
+    .project{
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+    }
+    .project h2{
+        padding-top: 20px;
+    }
+    .project hr{
+        width: 280px;
+    }
+   .project .card{
+    margin-top: 20px;
+   }
+}

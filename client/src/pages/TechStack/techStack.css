@@ -39,3 +39,20 @@
     /* border: none; */
     transition: 1s;
 }
+
+/* Mobile view */
+@media (max-width:600px){
+    .techstack{
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+    }
+    .techstack h2{
+        /* margin-top: 10px; */
+        padding-top: 20px;
+    }
+    .techstack hr{
+        width: 280px;
+    }
+    
+}

@@ -31,15 +31,15 @@ const Contact = () => {
                         <BsLinkedin
                           color="#0077B5"
                           size={30}
-                          className="ms-4"
+                          className="ms-2"
                         />
-                        <BsGithub color="#24292e" size={30} className="ms-4" />
+                        <BsGithub color="#24292e" size={30} className="ms-2" />
                         <BsInstagram
                           color="#962fbf"
                           size={30}
-                          className="ms-4"
+                          className="ms-2"
                         />
-                        <BsMedium color="#24292e" size={30} className="ms-4" />
+                        <BsMedium color="#24292e" size={30} className="ms-2" />
                       </h6>
                     </div>
 

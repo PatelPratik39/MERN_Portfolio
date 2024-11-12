@@ -20,7 +20,7 @@ const TechStack = () => {
         <div className="row">
           {TechStackList.map((tech) => (
             // eslint-disable-next-line react/jsx-key
-            <Fade right>
+            <Fade right key={tech._id}>
               <div key={tech._id} className="col-md-3">
                 <div className="card m-2">
                   <div className="card-content">

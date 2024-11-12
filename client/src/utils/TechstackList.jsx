@@ -42,7 +42,7 @@ import {
   SiSwagger,
   SiTensorflow
 } from "react-icons/si";
-import { BsFiletypeCss, BsBootstrap } from "react-icons/bs";
+import { BsBootstrap } from "react-icons/bs";
 
 export const TechStackList = [
    { _id: 46, name: "SpringCloud", icon: FaCloud },

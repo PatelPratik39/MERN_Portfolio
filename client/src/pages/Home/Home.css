@@ -61,3 +61,33 @@
     border-bottom-left-radius: 10px;
     z-index: 1;
 }
+
+/* Mobile Screen */
+
+@media (max-width:600px){
+    .home-container{
+        padding: 0;
+        margin: 0;
+        margin-top: 50px;
+    }
+    .home-container h2 {
+        font-size: 24px;
+    }
+    .home-container h1{
+        font-size: 24px;
+    }
+
+    .home-buttons .btn-hire .btn-cv{
+        width: 160px !important;
+        font-weight: normal !important;
+        background-color: #138781 !important;
+        color: white !important;
+    }
+
+    .home-buttons .btn-hire:hover .btn-cv:hover,
+    .home-buttons .btn-hire:focus .btn-cv:focus{
+        background-color: #138781 !important; /* Override hover/focus state */
+        color: white !important;
+        width: 160px !important;
+    }
+}
