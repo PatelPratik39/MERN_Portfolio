@@ -13,15 +13,12 @@ app.use(cors());
 app.use(express.json());
 
 //routes
-app.get("/", function (req, res) {
-  res.send("Welcome to Node Server");
-});
+app.use("/api/v1/portfolio", require("./routes/portfolioRoute"));
 
 // PORT
 const PORT = process.env.PORT || 3000;
 
 // Listen
-app.listen(() => {
-    console.log(`App is Running at PORT ${PORT}`);
-    
+app.listen(PORT, () => {
+  console.log(`App is Running at PORT ${PORT}`);
 });
