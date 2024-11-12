@@ -1,7 +1,10 @@
 import Rotate from "react-reveal/Rotate";
 import LightSpeed from "react-reveal/LightSpeed";
 import "./contact.css";
-import { BsLinkedin, BsGithub, BsInstagram, BsMedium } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
+import { SiHackerrank, SiLeetcode } from "react-icons/si";
+
+import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 const Contact = () => {
   return (
@@ -28,18 +31,50 @@ const Contact = () => {
                     <div className="row">
                       <h6 className="icons">
                         Contact with
-                        <BsLinkedin
-                          color="#0077B5"
-                          size={30}
+                        <a
+                          href="https://www.linkedin.com/in/pratikpatel6/"
+                          target="_blank"
+                          rel="noopener noreferrer"
                           className="ms-2"
-                        />
-                        <BsGithub color="#24292e" size={30} className="ms-2" />
-                        <BsInstagram
-                          color="#962fbf"
-                          size={30}
+                        >
+                          <BsLinkedin
+                            color="#0077B5"
+                            size={30}
+                            className="ms-1"
+                          />
+                        </a>
+                        <a
+                          href="https://github.com/PatelPratik39"
+                          target="_blank"
+                          rel="noopener noreferrer"
                           className="ms-2"
-                        />
-                        <BsMedium color="#24292e" size={30} className="ms-2" />
+                        >
+                          <BsGithub color="#24292e" size={30} />
+                        </a>
+                        <a
+                          href="mailto:ptl.pratik717@gmail.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="ms-2"
+                        >
+                          <MdEmail color="#4285F4" size={30} />
+                        </a>
+                        <a
+                          href="https://www.hackerrank.com/profile/ptl_pratik717"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="ms-2"
+                        >
+                          <SiHackerrank color="#24292e" size={30} />
+                        </a>
+                        <a
+                          href="https://leetcode.com/u/pratik_3900/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="ms-2"
+                        >
+                          <SiLeetcode color="#f29f67" size={30} />
+                        </a>
                       </h6>
                     </div>
 
