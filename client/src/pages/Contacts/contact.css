@@ -87,6 +87,11 @@ input:focus , textarea:focus{
         padding: 0;
         margin-top: 50px;
     }
+    .card1 img {
+        width: 100%;      /* Makes the image take full width of its container */
+        height: auto;     /* Maintains the aspect ratio */
+        object-fit: cover; /* Ensures it covers the container area without distortion */
+  }
     .contact .card2{
         margin: 0;
     }
