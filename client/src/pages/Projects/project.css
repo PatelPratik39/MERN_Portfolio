@@ -88,6 +88,7 @@
   border-radius: 50%; /* Optional: make the icon circular */
 }
 
+
 @media (max-width:600px){
     .project{
         margin: 0;
@@ -103,4 +104,5 @@
    .project .card{
     margin-top: 20px;
    }
+   
 }

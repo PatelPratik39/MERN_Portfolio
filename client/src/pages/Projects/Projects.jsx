@@ -88,29 +88,31 @@ const Projects = () => {
                       </div>
                     </div>
                   </div>
+                  {/*  */}
                   <div className="col-md-4">
                     <div className="card rounded">
                       <div className="card-image">
                         <span className="card-notify-badge">
                           Java Full Stack
                         </span>
-                        <img src="image6.png" alt="project3" />
+                        <img src="/store1.png" alt="project3" />
                       </div>
                       <div className="card-image-overly m-auto mt-3">
                         <span className="card-detail-badge">Java</span>
                         <span className="card-detail-badge">SpringBoot</span>
                         <span className="card-detail-badge">ReactJs</span>
+                        <span className="card-detail-badge">TypeScript</span>
                         <span className="card-detail-badge">Docker</span>
-                        <span className="card-detail-badge">OpenAI</span>
-                        {/* <span className="card-detail-badge">Olama</span> */}
                       </div>
                       <div className="card-body text-center">
                         <div className="m-auto ad-title ">
-                          <h5 className="text-uppercase">Tinder AI App</h5>
+                          <h5 className="text-uppercase">
+                            Sports Center Web App
+                          </h5>
                         </div>
                         <a
                           className="ad-btn"
-                          href="https://github.com/PatelPratik39/TinderApp_AI"
+                          href="https://github.com/PatelPratik39/SportCenterApp_SpringBoot_React"
                         >
                           {" "}
                           View
@@ -118,6 +120,7 @@ const Projects = () => {
                       </div>
                     </div>
                   </div>
+                  {/*  */}
                 </div>
               </div>
               <div className="carousel-item">
@@ -185,24 +188,23 @@ const Projects = () => {
                         <span className="card-notify-badge">
                           Java Full Stack
                         </span>
-                        <img src="/store1.png" alt="project6" />
+                        <img src="image6.png" alt="project6" />
                       </div>
                       <div className="card-image-overly m-auto mt-3">
                         <span className="card-detail-badge">Java</span>
                         <span className="card-detail-badge">SpringBoot</span>
                         <span className="card-detail-badge">ReactJs</span>
-                        <span className="card-detail-badge">TypeScript</span>
                         <span className="card-detail-badge">Docker</span>
+                        <span className="card-detail-badge">OpenAI</span>
+                        {/* <span className="card-detail-badge">Olama</span> */}
                       </div>
                       <div className="card-body text-center">
                         <div className="m-auto ad-title ">
-                          <h5 className="text-uppercase">
-                            Sports Center Web App
-                          </h5>
+                          <h5 className="text-uppercase">Tinder AI App</h5>
                         </div>
                         <a
                           className="ad-btn"
-                          href="https://github.com/PatelPratik39/SportCenterApp_SpringBoot_React"
+                          href="https://github.com/PatelPratik39/TinderApp_AI"
                         >
                           {" "}
                           View
@@ -214,7 +216,7 @@ const Projects = () => {
               </div>
             </div>
             {/* Carousel Controls */}
-            {/* <button
+            <button
               className="carousel-control-prev"
               type="button"
               data-bs-target="#projectCarousel"
@@ -237,7 +239,7 @@ const Projects = () => {
                 aria-hidden="true"
               ></span>
               <span className="visually-hidden">Next</span>
-            </button> */}
+            </button>
           </Rotate>
         </div>
       </div>
