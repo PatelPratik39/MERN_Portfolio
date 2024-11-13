@@ -30,6 +30,7 @@ const Home = () => {
                   strings: [
                     "Full Stack Developer",
                     "Software Engineer",
+                    "MERN Stack Developer",
                     "AWS Cloud Practioner"
                   ],
                   autoStart: true,

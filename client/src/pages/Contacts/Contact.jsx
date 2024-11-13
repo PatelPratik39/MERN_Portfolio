@@ -1,5 +1,4 @@
 import { useState } from "react";
-import axios from "axios";
 import Rotate from "react-reveal/Rotate";
 import LightSpeed from "react-reveal/LightSpeed";
 import "./contact.css";
