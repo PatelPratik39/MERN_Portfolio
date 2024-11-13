@@ -1,6 +1,7 @@
 import { useState } from "react";
-import Rotate from "react-reveal/Rotate";
-import LightSpeed from "react-reveal/LightSpeed";
+import { Rotate, Slide } from "react-awesome-reveal";
+// import Rotate from "react-reveal/Rotate";
+// import LightSpeed from "react-reveal/LightSpeed";
 import "./contact.css";
 import { MdEmail } from "react-icons/md";
 import { SiHackerrank, SiLeetcode } from "react-icons/si";
@@ -46,12 +47,12 @@ const Contact = () => {
             <div className="col-md-6 col-lg-6 col-xk-6 col-sm-12">
               <div className="card1">
                 <div className="row border-line">
-                  <LightSpeed>
+                  <Slide>
                     <img
                       src="https://img.freepik.com/free-vector/contact-us-button_78370-3753.jpg"
                       alt="contact"
                     />
-                  </LightSpeed>
+                  </Slide>
                 </div>
               </div>
             </div>

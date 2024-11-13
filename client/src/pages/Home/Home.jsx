@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 import Resume from "../../assets/docs/Pratik_Patel_Resume1.pdf";
 import { BsFillSunFill, BsFillMoonStarsFill } from "react-icons/bs";
 import "./Home.css";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const Home = () => {
   const [theme, setTheme] = useTheme();

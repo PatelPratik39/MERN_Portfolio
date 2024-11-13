@@ -1,9 +1,9 @@
 import { Fade, Bounce } from "react-awesome-reveal";
-// import "./techStack.css";
-import './teckStack1.css';
+// import "./techStack1.css"
+import "./techStack.css";
 import { TechStackList } from "../../utils/TechStackList.jsx";
 
-const TechStack = () => {
+const TechStack1 = () => {
   return (
     <>
       <div className="container techstack" id="techstack">
@@ -19,8 +19,8 @@ const TechStack = () => {
         </Bounce>
         <div className="row">
           {TechStackList.map((tech) => (
-            // <Fade right>
-              <div key={tech._id} className="col-sm-6 col-md-4 col-lg-3">
+            // <Fade right key={tech._id}>
+              <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
                 <div className="card m-2">
                   <div className="card-content">
                     <div className="card-body">
@@ -44,4 +44,4 @@ const TechStack = () => {
   );
 };
 
-export default TechStack;
+export default TechStack1;

@@ -8,9 +8,11 @@ import Projects from "./pages/Projects/Projects";
 import TechStack from "./pages/TechStack/TechStack";
 import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./context/ThemeContext";
-import Tada from "react-reveal/Tada";
+import { Bounce } from "react-awesome-reveal";
+// import Tada from "react-reveal/Tada";
 import "./index.css";
 import MobileView from "./components/MobileView/MobileView";
+import TechStack1 from "./pages/TechStack/TechStack1";
 
 function App() {
   const [theme] = useTheme();
@@ -22,6 +24,7 @@ function App() {
         <div className="container">
           <About />
           <TechStack />
+          {/* <TechStack1 /> */}
           <Experience />
           <Education />
           <Certification />
@@ -29,12 +32,12 @@ function App() {
           <Contact />
         </div>
         <div className="footer pb-3 ms-3">
-          <Tada>
+          <Bounce>
 
           <h4 className="text-center" style={{ color: "#138781" }}>
             🧑🏻‍💻 Developed by Pratik Patel 2024 &copy;
           </h4>
-          </Tada>
+          </Bounce>
         </div>
       </div>
       <ScrollToTop
