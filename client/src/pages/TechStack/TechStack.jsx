@@ -1,6 +1,7 @@
 import { Bounce } from "react-awesome-reveal";
 import "./techStack.css";
-import { TechStackList } from "../../utils/TechStackList.jsx";
+// import { TechStackList } from "../../utils/TechStackList.jsx";
+import { TechStackList } from "../../utils/TechStackList";
 
 const TechStack = () => {
   return (
