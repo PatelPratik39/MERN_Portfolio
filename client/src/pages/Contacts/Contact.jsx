@@ -1,12 +1,44 @@
+import { useState } from "react";
+import axios from "axios";
 import Rotate from "react-reveal/Rotate";
 import LightSpeed from "react-reveal/LightSpeed";
 import "./contact.css";
 import { MdEmail } from "react-icons/md";
 import { SiHackerrank, SiLeetcode } from "react-icons/si";
-
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    msg: ""
+  });
+  const [statusMessage, setStatusMessage] = useState("");
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      setStatusMessage("");
+      // await axios.post("http://localhost:3000/send-email", formData);
+      setStatusMessage("Message sent successfully!");
+
+      // Clear input fields
+      setFormData({
+        name: "",
+        email: "",
+        msg: ""
+      });
+    } catch (error) {
+      console.log(error);
+      setStatusMessage("Failed to send message. Please try again later.");
+    }
+  };
   return (
     <>
       <div className="container contact" id="contact">
@@ -83,35 +115,47 @@ const Contact = () => {
                       <small className="or text-center">OR</small>
                       <div className="line" />
                     </div>
-                    <div className="row px-3">
-                      <input
-                        type="text"
-                        name="name"
-                        placeholder="Enter your Name"
-                        className="mb-3"
-                      />
-                    </div>
-                    <div className="row px-3">
-                      <input
-                        type="email"
-                        name="email"
-                        placeholder="Enter your Email"
-                        className="mb-3"
-                      />
-                    </div>
-                    <div className="row px-3">
-                      <textarea
-                        type="text"
-                        name="msg"
-                        placeholder="Enter your Message"
-                        className="mb-3"
-                      />
-                    </div>
-                    <div className="row px-3">
-                      <button className="button" type="submit">
-                        Send Message
-                      </button>
-                    </div>
+                    <form onSubmit={handleSubmit}>
+                      <div className="row px-3">
+                        <input
+                          type="text"
+                          name="name"
+                          placeholder="Enter your Name"
+                          value={formData.name}
+                          onChange={handleChange}
+                          required
+                          className="mb-3"
+                        />
+                      </div>
+                      <div className="row px-3">
+                        <input
+                          type="email"
+                          name="email"
+                          value={formData.email}
+                          onChange={handleChange}
+                          required
+                          placeholder="Enter your Email"
+                          className="mb-3"
+                        />
+                      </div>
+                      <div className="row px-3">
+                        <textarea
+                          type="text"
+                          name="msg"
+                          placeholder="Enter your Message"
+                          value={formData.msg}
+                          onChange={handleChange}
+                          required
+                          className="mb-3"
+                        />
+                      </div>
+                      <div className="row px-3">
+                        <button className="button" type="submit">
+                          Send Message
+                        </button>
+                      </div>
+                      {statusMessage && <p>{statusMessage}</p>}
+                    </form>
                   </div>
                 </div>
               </Rotate>
