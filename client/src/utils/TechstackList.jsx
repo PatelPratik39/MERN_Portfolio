@@ -45,7 +45,7 @@ import {
 import { BsBootstrap } from "react-icons/bs";
 
 export const TechStackList = [
-   { _id: 46, name: "SpringCloud", icon: FaCloud },
+  { _id: 46, name: "SpringCloud", icon: FaCloud },
   { _id: 45, name: "SpringAI", icon: SiSpring },
   { _id: 47, name: "MachineLearning", icon: SiTensorflow },
   { _id: 42, name: "Data Structures", icon: FaProjectDiagram },
@@ -91,6 +91,5 @@ export const TechStackList = [
   { _id: 40, name: "JUnit", icon: FaJava },
   { _id: 41, name: "Agile Methodology", icon: FaTasks },
   { _id: 43, name: "Bootstrap", icon: BsBootstrap },
-  { _id: 44, name: "Swagger", icon: SiSwagger },
- 
+  { _id: 44, name: "Swagger", icon: SiSwagger }
 ];

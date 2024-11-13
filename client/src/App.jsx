@@ -12,7 +12,6 @@ import { Bounce } from "react-awesome-reveal";
 // import Tada from "react-reveal/Tada";
 import "./index.css";
 import MobileView from "./components/MobileView/MobileView";
-import TechStack1 from "./pages/TechStack/TechStack1";
 
 function App() {
   const [theme] = useTheme();
@@ -24,7 +23,6 @@ function App() {
         <div className="container">
           <About />
           <TechStack />
-          {/* <TechStack1 /> */}
           <Experience />
           <Education />
           <Certification />
@@ -33,10 +31,9 @@ function App() {
         </div>
         <div className="footer pb-3 ms-3">
           <Bounce>
-
-          <h4 className="text-center" style={{ color: "#138781" }}>
-            🧑🏻‍💻 Developed by Pratik Patel 2024 &copy;
-          </h4>
+            <h4 className="text-center" style={{ color: "#138781" }}>
+              🧑🏻‍💻 Developed by Pratik Patel 2024 &copy;
+            </h4>
           </Bounce>
         </div>
       </div>

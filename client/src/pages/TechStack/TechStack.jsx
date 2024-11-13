@@ -1,6 +1,5 @@
-import { Fade, Bounce } from "react-awesome-reveal";
-// import "./techStack.css";
-import './teckStack1.css';
+import { Bounce } from "react-awesome-reveal";
+import "./techStack.css";
 import { TechStackList } from "../../utils/TechStackList.jsx";
 
 const TechStack = () => {
@@ -20,22 +19,22 @@ const TechStack = () => {
         <div className="row">
           {TechStackList.map((tech) => (
             // <Fade right>
-              <div key={tech._id} className="col-sm-6 col-md-4 col-lg-3">
-                <div className="card m-2">
-                  <div className="card-content">
-                    <div className="card-body">
-                      <div className="media d-flex justify-content-center">
-                        <div className="align-self-center">
-                          <tech.icon className="tech-icon" />
-                        </div>
-                        <div className="media-body">
-                          <h5>{tech.name}</h5>
-                        </div>
+            <div key={tech._id} className="col-sm-6 col-md-4 col-lg-3">
+              <div className="card m-2">
+                <div className="card-content">
+                  <div className="card-body">
+                    <div className="media d-flex justify-content-center">
+                      <div className="align-self-center">
+                        <tech.icon className="tech-icon" />
+                      </div>
+                      <div className="media-body">
+                        <h5>{tech.name}</h5>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
             // </Fade>
           ))}
         </div>
