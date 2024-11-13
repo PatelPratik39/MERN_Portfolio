@@ -214,7 +214,7 @@ const Projects = () => {
               </div>
             </div>
             {/* Carousel Controls */}
-            <button
+            {/* <button
               className="carousel-control-prev"
               type="button"
               data-bs-target="#projectCarousel"
@@ -237,7 +237,7 @@ const Projects = () => {
                 aria-hidden="true"
               ></span>
               <span className="visually-hidden">Next</span>
-            </button>
+            </button> */}
           </Rotate>
         </div>
       </div>

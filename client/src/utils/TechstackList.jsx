@@ -44,7 +44,7 @@ import {
 } from "react-icons/si";
 import { BsBootstrap } from "react-icons/bs";
 
-export const TechStackList = [
+export const TechstackList = [
   { _id: 46, name: "SpringCloud", icon: FaCloud },
   { _id: 45, name: "SpringAI", icon: SiSpring },
   { _id: 47, name: "MachineLearning", icon: SiTensorflow },
