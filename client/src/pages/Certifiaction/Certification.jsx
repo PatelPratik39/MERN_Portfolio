@@ -1,5 +1,5 @@
 import React from "react";
-import './certification.css'
+import "./certification.css";
 import {
   VerticalTimeline,
   VerticalTimelineElement
@@ -25,7 +25,9 @@ const Certification = () => {
             icon={<PiCertificateBold />}
           >
             <h3 className="vertical-timeline-element-title">
-              Software Engineer
+              <a href="https://www.hackerrank.com/certificates/f016c024f73a">
+                Software Engineer
+              </a>
             </h3>
             <h4 className="vertical-timeline-element-subtitle">Hacker Rank</h4>
             {/* <h6 className="vertical-timeline-element-city">Chicago, IL, USA</h6> */}
@@ -39,7 +41,9 @@ const Certification = () => {
             icon={<PiCertificateBold />}
           >
             <h3 className="vertical-timeline-element-title">
-              AWS Cloud Practitioner
+              <a href="https://www.credly.com/badges/520191ce-0ef5-41e1-9148-49328259daf0/linked_in_profile">
+                AWS Cloud Practitioner
+              </a>
             </h3>
             <h4 className="vertical-timeline-element-subtitle">AWS</h4>
             {/* <h6 className="vertical-timeline-element-city">Chicago, IL, USA</h6> */}
@@ -69,9 +73,39 @@ const Certification = () => {
             icon={<PiCertificateBold />}
           >
             <h3 className="vertical-timeline-element-title">
-              Full Stack Java Developer
+              <a href="https://success.simplilearn.com/1836795f-f40a-4530-95f3-2b3018c89492">
+                Full Stack Java Developer
+              </a>
             </h3>
             <h4 className="vertical-timeline-element-subtitle">SimpliLearn</h4>
+            {/* <h6 className="vertical-timeline-element-city">Chicago, IL, USA</h6> */}
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "white", color: "black" }}
+            contentArrowStyle={{ borderRight: "7px solid green" }}
+            date="2021"
+            iconStyle={{ background: "#138781", color: "#fff" }}
+            icon={<PiCertificateBold />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Infosys certified ReactJs Developer - Associate
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">Infosys</h4>
+            {/* <h6 className="vertical-timeline-element-city">Chicago, IL, USA</h6> */}
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "white", color: "black" }}
+            contentArrowStyle={{ borderRight: "7px solid green" }}
+            date="2021"
+            iconStyle={{ background: "#138781", color: "#fff" }}
+            icon={<PiCertificateBold />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Infosys certified Java SpringBoot using REST API - Associate
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">Infosys</h4>
             {/* <h6 className="vertical-timeline-element-city">Chicago, IL, USA</h6> */}
           </VerticalTimelineElement>
         </VerticalTimeline>
