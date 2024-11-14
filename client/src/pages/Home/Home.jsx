@@ -22,7 +22,7 @@ const Home = () => {
         </div>
         <div className="container home-content">
           <Fade right>
-            <h1>Hi👋🏻, I&apos;m a </h1>
+            <h1> Hi👋🏻, I&apos;m a </h1>
             {/* Using Typewrite-effect pakage: npm i typewriter-effect */}
             <h2>
               <Typewriter

@@ -1,5 +1,5 @@
 // import Spin from "react-reveal/Spin";
-import { Rotate } from "react-awesome-reveal";
+import { Bounce } from "react-awesome-reveal";
 import "./project.css";
 
 const Projects = () => {
@@ -27,7 +27,7 @@ const Projects = () => {
           data-bs-ride="carousel"
           data-bs-interval="5000"
         >
-          <Rotate>
+          <Bounce>
             <div className="carousel-inner">
               {/* First Slide with 3 Projects */}
               <div className="carousel-item active">
@@ -240,7 +240,7 @@ const Projects = () => {
               ></span>
               <span className="visually-hidden">Next</span>
             </button>
-          </Rotate>
+          </Bounce>
         </div>
       </div>
     </>

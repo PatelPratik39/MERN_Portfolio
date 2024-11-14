@@ -16,47 +16,58 @@ const About = () => {
                 <b>About Me</b>
               </h2>
               <p>
+                {" "}
                 Hello! I’m Pratik Patel, a software engineer with over four
-                years of experience in creating high-quality, scalable web
-                applications. My expertise spans both front-end and back-end
-                development, utilizing technologies like Java Spring Boot,
-                React, Node.js, JavaScript, TypeScript, and AWS to design
-                innovative solutions that prioritize performance and user
-                experience.
-              </p>
+                years of experience specializing in full-stack development with
+                a strong focus on Java, Spring Boot, microservices, and RESTful
+                APIs. I excel at building scalable, high-performance
+                applications, leveraging a microservices architecture to create
+                modular, maintainable solutions that are easy to extend and
+                deploy.{" "}
+              </p>{" "}
               <p>
-                I&apos;m proficient in the MERN stack (MongoDB, Express.js,
-                React, Node.js), which allows me to build full-stack
-                applications with seamless integration between the front-end and
-                back-end. My strong command of JavaScript and TypeScript enables
-                me to write clean, maintainable code and develop dynamic,
-                responsive user interfaces.
-              </p>
+                {" "}
+                My expertise in Spring Boot and REST API development enables me
+                to design robust back-end services that integrate seamlessly
+                with modern front-end frameworks like React. With React.js, I
+                create dynamic and responsive interfaces, ensuring a smooth and
+                engaging user experience. My work often bridges the front and
+                back ends, allowing for efficient data flow and cohesive
+                functionality across applications.{" "}
+              </p>{" "}
               <p>
-                With a keen interest in generative AI, I’ve integrated AI-driven
-                capabilities into my projects, leveraging frameworks like Spring
-                AI and Retrieval-Augmented Generation (RAG) to enhance
-                application intelligence and responsiveness. This approach
-                allows me to build solutions that efficiently retrieve and
-                process information, delivering accurate and contextually
-                relevant results for users in real-time.
-              </p>
+                {" "}
+                In addition to Spring Boot and React, I am proficient in the
+                MERN stack (MongoDB, Express.js, React, Node.js), giving me the
+                versatility to develop fully integrated full-stack applications.
+                My command of JavaScript and TypeScript allows me to write
+                clean, maintainable code that scales effectively across projects
+                of various sizes and requirements.{" "}
+              </p>{" "}
               <p>
-                My work spans diverse industries, including finance and
-                e-commerce, and I have a proven track record of creating
-                impactful solutions. I’m experienced in building robust APIs,
-                microservices, and full-stack applications with a focus on
-                maintainable, clean code. Additionally, I bring expertise in
-                CI/CD pipelines, Docker containerization, and cloud deployment,
-                ensuring seamless integration and optimized infrastructure.
-              </p>
+                {" "}
+                I am also passionate about integrating AI-driven features into
+                my projects. Using tools like Spring AI and Retrieval-Augmented
+                Generation (RAG), I’ve added intelligent, context-aware
+                capabilities to applications, allowing them to deliver relevant
+                and responsive results for users.{" "}
+              </p>{" "}
               <p>
-                I thrive on solving complex problems and collaborating with
-                teams that value innovation. Whether it’s improving code
-                coverage, enhancing UI/UX, or incorporating the latest in
-                generative AI technologies, I am committed to delivering
-                solutions that not only meet requirements but exceed
-                expectations.
+                {" "}
+                My experience spans industries such as finance and e-commerce,
+                where I have successfully developed solutions utilizing CI/CD
+                pipelines, Docker, and cloud deployment platforms to ensure
+                optimized infrastructure and continuous integration. I am
+                dedicated to producing clean, maintainable code that supports
+                long-term scalability and performance.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                I thrive on solving complex challenges and enjoy collaborating
+                within innovative teams. Whether it’s refining code quality,
+                enhancing UI/UX, or incorporating the latest in AI technology, I
+                am committed to delivering solutions that not only meet but
+                exceed expectations.{" "}
               </p>
               <p>
                 <b>

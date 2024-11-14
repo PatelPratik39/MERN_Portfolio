@@ -53,7 +53,7 @@ const Experience = () => {
               </p>
               <p>
                 <strong>Tech Stack:</strong> Java, Springboot, JavaScript,
-                ReactJS, Angular, Selenium, Jenkins, AWS, RESTful APIs, NodeJS
+                ReactJS, Angular, Selenium, Jenkins, AWS, RESTful APIs, NodeJS, Docker, Kubernates
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -96,7 +96,7 @@ const Experience = () => {
               </p>
               <p>
                 <strong>Tech Stack:</strong> Java,Springboot, ReactJS, Selenium,
-                AWS, Jenkins, REST APIs, Docker, MongoDB, Kafka, Cassandra,
+                AWS, Jenkins, REST APIs, Docker, MongoDB, Kafka, Splunk
                 Rally, Confluence
               </p>
             </VerticalTimelineElement>
