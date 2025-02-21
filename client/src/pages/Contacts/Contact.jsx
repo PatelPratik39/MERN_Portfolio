@@ -82,7 +82,7 @@ const Contact = () => {
           <div className="row">
             <div className="col-md-6 col-lg-6 col-xk-6 col-sm-12">
               <div className="card1">
-                <div className="row border-line">
+                {/* <div className="row border-line"> */}
                   <Slide>
                     <img
                       src="https://cdn-icons-png.flaticon.com/128/7269/7269950.png"
@@ -96,8 +96,9 @@ const Contact = () => {
                       }}
                     />
                   </Slide>
-                </div>
+                {/* </div> */}
               </div>
+            <div className="row border-line"></div>
             </div>
             <div className="col-md-6 col-lg-6">
               <Rotate>
