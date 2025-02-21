@@ -15,8 +15,12 @@
     color: #138781;
 }
 
-#ads{
+#ads {
     margin: 30px 0 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
 }
 #ads .card-notify-badge{
     position: absolute;
@@ -31,9 +35,23 @@
     /* font-size: 20px; */
 }
 
+.project .card {
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 100%; /* Makes all cards the same height */
+}
+/* Ensure card-body takes full height */
+.project .card-body {
+   /* Fills the remaining space */
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between; /* Keeps buttons aligned at the bottom */
+}
+
 .project .card img {
     height: 200px;
     width: 100%;
+    object-fit: cover;
 }
 .project .card-detail-badge {
     background-color: #e0b50f;
@@ -41,11 +59,22 @@
     border-radius: 30px 30px 30px 30px;
     color: black;
     padding: 5px 10px;
-    /* font-size: 14px; */
     font-size: 14px;
 }
+
+.card-detail-badge {
+    background-color: #e0b50f !important;
+    text-align: center;
+    border-radius: 30px;
+    color: black;
+    padding: 5px 10px;
+    font-size: 14px;
+    display: inline-block !important; /* Ensures visibility */
+}
+
 .project .card-image-overly {
     font-size: 20px;
+    min-height: 50px; 
 }
 .project .card-image-overly span{
     display: inline-block;
@@ -69,6 +98,7 @@
     font-size: 16px;
     line-height: 35px;
     text-decoration: none;
+    /* margin-top: auto; */
     margin: 20px auto 20px auto;
     overflow: hidden;
     position: relative;
@@ -82,11 +112,65 @@
     transition: all 0.5s ease;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%; 
+} */
+ /* Ensure the carousel container is positioned properly */
+#projectCarousel {
+  position: relative;
+}
+
+/* Center the previous and next buttons vertically */
+/* Center the previous and next buttons vertically */
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); /* Centers vertically */
+  width: 8%; /* Adjust width for better clickability */
+  opacity: 1; /* Ensure buttons are always visible */
+}
+
+/* Adjust button size for better visibility */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: rgba(0, 0, 0, 0.5); /* Black with slight transparency */
-  border-radius: 50%; /* Optional: make the icon circular */
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5); /* Slight transparency */
+  border-radius: 50%;
 }
+/* Position the previous button on the left */
+.carousel-control-prev {
+  left: -40px; /* Adjust distance from the left */
+}
+
+/* Position the next button on the right */
+.carousel-control-next {
+  right: -40px; /* Adjust distance from the right */
+}
+
+/* Hover effect */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 0.8;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 12%; /* Increase width for easier clickability */
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+
 
 
 @media (max-width:600px){

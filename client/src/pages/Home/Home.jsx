@@ -1,6 +1,6 @@
 import { useTheme } from "../../context/ThemeContext";
 import Typewriter from "typewriter-effect";
-import Resume from "../../assets/docs/Pratik_Patel_Resume1.pdf";
+import Resume from "../../assets/docs/Pratik Patel_Resume_2025.pdf";
 import { BsFillSunFill, BsFillMoonStarsFill } from "react-icons/bs";
 import "./Home.css";
 import { Fade } from "react-awesome-reveal";
@@ -31,7 +31,8 @@ const Home = () => {
                     "Full Stack Developer",
                     "Software Engineer",
                     "MERN Stack Developer",
-                    "AWS Cloud Practioner"
+                    "AWS Cloud Practioner",
+                    "AWS AI Practioner"
                   ],
                   autoStart: true,
                   loop: true

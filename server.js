@@ -2,12 +2,18 @@ const express = require("express");
 const cors = require("cors");
 const dotenv = require("dotenv");
 const path = require("path");
+// const nodemailer = require("nodemailer");
+// const { s } = require("framer-motion/client");
 
 // dotenv configuration
 dotenv.config();
 
 // rest object
 const app = express();
+// const transporter = nodemailer.createTransport({
+//   service: "gmail",
+// })
+
 
 //Middleware
 app.use(cors());

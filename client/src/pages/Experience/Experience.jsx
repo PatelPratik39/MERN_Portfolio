@@ -31,7 +31,7 @@ const Experience = () => {
               <h4 className="vertical-timeline-element-subtitle">
                 Infosys Limited
               </h4>
-              <h6 className="vertical-timeline-element-city">Lisle, IL, USA</h6>
+              <h6 className="vertical-timeline-element-city">Chicago, IL, USA</h6>
               {/* Add work experience based on Infosys project */}
               <p>
                 - Developed and optimized front-end applications using

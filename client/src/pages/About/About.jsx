@@ -17,9 +17,9 @@ const About = () => {
               </h2>
               <p>
                 {" "}
-                Hello! I’m Pratik Patel, a software engineer with over four
+                Hello! I’m Pratik Patel, a Software Engineer with 4+
                 years of experience specializing in full-stack development with
-                a strong focus on Java, Spring Boot, microservices, and RESTful
+                a strong focus on React, Java, Spring Boot, microservices, NodeJs, AWS AI Services, SQL and NoSQL databases and RESTful
                 APIs. I excel at building scalable, high-performance
                 applications, leveraging a microservices architecture to create
                 modular, maintainable solutions that are easy to extend and

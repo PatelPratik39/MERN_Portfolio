@@ -20,25 +20,61 @@ const Contact = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
-    try {
-      setStatusMessage("");
-      // await axios.post("http://localhost:3000/send-email", formData);
-      setStatusMessage("Message sent successfully!");
+    const { name, email, msg } = formData;
 
-      // Clear input fields
-      setFormData({
-        name: "",
-        email: "",
-        msg: ""
-      });
-    } catch (error) {
-      console.log(error);
-      setStatusMessage("Failed to send message. Please try again later.");
+    if (!name || !email || !msg) {
+      setStatusMessage("⚠️ All fields are required.");
+      return;
     }
+
+    // Show redirecting message
+    // setStatusMessage("Redirecting to email client...");
+
+    // Construct mailto link
+    const mailtoLink = `mailto:ptl.pratik717@gmail.com?subject=Message from ${encodeURIComponent(
+      name
+    )}&body=${encodeURIComponent(
+      msg
+    )}%0D%0A%0D%0AReply to: ${encodeURIComponent(email)}`;
+
+    // Open user's email client after a short delay
+    setTimeout(() => {
+      window.location.href = mailtoLink;
+    }, 1000);
+
+    // Hide the status message after 20 seconds
+    setTimeout(() => {
+      setStatusMessage("");
+    }, 20000); // 20 seconds
+
+    // Clear form fields
+    setFormData({ name: "", email: "", msg: "" });
   };
+
+
+
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+
+  //   try {
+  //     setStatusMessage("");
+  //     await axios.post("http://localhost:3000/send-email", formData);
+  //     setStatusMessage("Message sent successfully!");
+
+  //     // Clear input fields
+  //     setFormData({
+  //       name: "",
+  //       email: "",
+  //       msg: ""
+  //     });
+  //   } catch (error) {
+  //     console.log(error);
+  //     setStatusMessage("Failed to send message. Please try again later.");
+  //   }
+  // };
   return (
     <>
       <div className="container contact" id="contact">
@@ -49,8 +85,15 @@ const Contact = () => {
                 <div className="row border-line">
                   <Slide>
                     <img
-                      src="https://img.freepik.com/free-vector/contact-us-button_78370-3753.jpg"
+                      src="https://cdn-icons-png.flaticon.com/128/7269/7269950.png"
                       alt="contact"
+                      style={{
+                        width: "100%",
+                        maxWidth: "250px",
+                        height: "auto",
+                        display: "block",
+                        margin: "0 auto"
+                      }}
                     />
                   </Slide>
                 </div>
@@ -62,7 +105,7 @@ const Contact = () => {
                   <div className="row">
                     <div className="row">
                       <h6 className="icons">
-                        Contact with
+                        Social Media connect:
                         <a
                           href="https://www.linkedin.com/in/pratikpatel6/"
                           target="_blank"
@@ -115,7 +158,7 @@ const Contact = () => {
                       <small className="or text-center">OR</small>
                       <div className="line" />
                     </div>
-                    <form onSubmit={handleSubmit}>
+                    {/* <form onSubmit={handleSubmit}>
                       <div className="row px-3">
                         <input
                           type="text"
@@ -155,6 +198,46 @@ const Contact = () => {
                         </button>
                       </div>
                       {statusMessage && <p>{statusMessage}</p>}
+                    </form> */}
+                    <form onSubmit={handleSubmit} className="contact-form">
+                      <div className="input-group">
+                        <label>Name</label>
+                        <input
+                          type="text"
+                          name="name"
+                          placeholder="Enter your Name"
+                          value={formData.name}
+                          onChange={handleChange}
+                          required
+                        />
+                      </div>
+                      <div className="input-group">
+                        <label>Email</label>
+                        <input
+                          type="email"
+                          name="email"
+                          placeholder="Enter your Email"
+                          value={formData.email}
+                          onChange={handleChange}
+                          required
+                        />
+                      </div>
+                      <div className="input-group">
+                        <label>Message</label>
+                        <textarea
+                          name="msg"
+                          placeholder="Enter your Message"
+                          value={formData.msg}
+                          onChange={handleChange}
+                          required
+                        />
+                      </div>
+                      <button className="send-button" type="submit">
+                        Send Message
+                      </button>
+                      {statusMessage && (
+                        <p className="status-message">{statusMessage}</p>
+                      )}
                     </form>
                   </div>
                 </div>
