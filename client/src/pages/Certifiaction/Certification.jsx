@@ -15,7 +15,25 @@ const Certification = () => {
           Certifications
         </h2>
         <hr />
+
         <VerticalTimeline>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "white", color: "black" }}
+            contentArrowStyle={{ borderRight: "7px solid green" }}
+            date="2025"
+            iconStyle={{ background: "#138781", color: "#fff" }}
+            icon={<PiCertificateBold />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              <a href="https://success.simplilearn.com/48dcd6be-7afb-4ad0-ae5e-56184ce52b7e">
+                Applied Generative AI Specialization
+              </a>
+              <p>validation code: 138180731</p>
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">Purdue University</h4>
+            {/* <h6 className="vertical-timeline-element-city">Chicago, IL, USA</h6> */}
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "black" }}

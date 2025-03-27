@@ -1,6 +1,6 @@
 import { useTheme } from "../../context/ThemeContext";
 import Typewriter from "typewriter-effect";
-import Resume from "../../assets/docs/Pratik Patel_Resume_2025.pdf";
+import Resume from "../../assets/docs/Pratik Patel_latest.pdf";
 import { BsFillSunFill, BsFillMoonStarsFill } from "react-icons/bs";
 import "./Home.css";
 import { Fade } from "react-awesome-reveal";

@@ -40,3 +40,31 @@
         display: none;
     }
 }
+
+/* 📱 Fix for iPad, iPad Pro, and Mid-Sized Screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+    #home {
+        margin-left: 100px; /* Adjust home content width */
+        width: calc(100% - 100px);
+    }
+
+    .sidebar {
+        width: 100px; /* Slightly larger sidebar for better usability */
+    }
+
+    .sidebar-toggle {
+        width: 250px;
+    }
+}
+
+/* 📱 Mobile View (iPhone & Smaller Devices) */
+@media (max-width: 768px) and (max-width: 1024px){
+    .sidebar {
+        display: none; /* Hide sidebar */
+    }
+
+    #home {
+        margin-left: 0;
+        width: 100%;
+    }
+}

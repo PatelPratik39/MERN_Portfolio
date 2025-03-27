@@ -21,7 +21,48 @@ const Experience = () => {
               className="vertical-timeline-element--work"
               contentStyle={{ background: "white", color: "black" }}
               contentArrowStyle={{ borderRight: "7px solid green" }}
-              date="March 2021 - August 2024"
+              date="May 2024 - Present"
+              iconStyle={{ background: "#138781", color: "#fff" }}
+              icon={<MdOutlineWork />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Full Stack Developer
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Wells Fargo
+              </h4>
+              <h6 className="vertical-timeline-element-city">Chicago, IL</h6>
+              <p>
+                - Collaborated with stakeholders to gather requirements and
+                align with Agile processes.
+                <br />- Designed backend architecture using Spring Boot, Java
+                11, Oracle SQL, and Microservices.
+                <br />- Integrated AWS services (S3, Lambda, RDS) and Kafka for
+                cloud scalability and asynchronous processing.
+                <br />- Implemented OAuth 2.0 and JWT authentication for secure
+                APIs.
+                <br />- Utilized Liquibase and Elasticsearch for schema
+                versioning and real-time analytics.
+                <br />- Wrote unit tests with JUnit5/Mockito using TDD; enforced
+                best practices via code reviews.
+                <br />- Used Docker, Kubernetes, Jenkins, and BitBucket for
+                CI/CD and container orchestration.
+                <br />- Optimized performance through refactoring and proactive
+                bug fixes.
+              </p>
+              <p>
+                <strong>Tech Stack:</strong> Java 11, Spring Boot, Oracle SQL
+                Developer, AWS (S3, Lambda, RDS), Kafka, OAuth 2.0, JWT,
+                Liquibase, Elasticsearch, JUnit5, Mockito, Docker, Kubernetes,
+                Jenkins, BitBucket
+              </p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "white", color: "black" }}
+              contentArrowStyle={{ borderRight: "7px solid green" }}
+              date="March 2021 - April 2024"
               iconStyle={{ background: "#138781", color: "#fff" }}
               icon={<MdOutlineWork />}
             >
@@ -29,114 +70,60 @@ const Experience = () => {
                 Technology Analyst
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                Infosys Limited
+                Infosys (Client: American Express)
               </h4>
-              <h6 className="vertical-timeline-element-city">Chicago, IL, USA</h6>
-              {/* Add work experience based on Infosys project */}
+              <h6 className="vertical-timeline-element-city">Chicago, IL</h6>
               <p>
-                - Developed and optimized front-end applications using
-                JavaScript and ReactJS, leading to a 25% increase in customer
-                satisfaction.
-                <br />- Automated testing and deployment using Java, Selenium,
-                and Jenkins, reducing manual efforts by 40% and improving
-                overall project efficiency.
-                <br />- Leveraged AWS services to deploy applications in the
-                cloud, enhancing scalability and security, and implemented
-                monitoring for high availability.
-                <br />- Created comprehensive unit and integration tests,
-                achieving 95% code coverage and ensuring reliability.
-                <br />- Played a critical role in the release of 7 major
-                projects, collaborating with cross-functional teams to
-                troubleshoot, implement features, and meet deadlines.
-                <br />- Awarded the “Best Collaborator” for exceptional
-                contributions and domain expertise.
+                - Built full-stack apps with Java Spring Boot and ReactJS,
+                improving customer satisfaction by 25%.
+                <br />- Created RESTful APIs and optimized React frontend for
+                scalable user experience.
+                <br />- Used Docker and Jenkins for deployment and CI/CD
+                automation.
+                <br />- Wrote unit tests using Jest and JUnit achieving 95% code
+                coverage.
+                <br />- Represented team during global release, taking on QA
+                responsibilities.
+                <br />- Delivered 7+ projects collaborating with
+                cross-functional teams.
               </p>
               <p>
-                <strong>Tech Stack:</strong> Java, Springboot, JavaScript,
-                ReactJS, Angular, Selenium, Jenkins, AWS, RESTful APIs, NodeJS, Docker, Kubernates
+                <strong>Tech Stack:</strong> Java, Spring Boot, ReactJS, RESTful
+                APIs, Docker, Jenkins, Jest, JUnit
               </p>
             </VerticalTimelineElement>
+
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: "white", color: "black" }}
               contentArrowStyle={{ borderRight: "7px solid green" }}
-              date="Septmber 2021 - April 2024"
+              date="September 2020 - March 2021"
               iconStyle={{ background: "#138781", color: "#fff" }}
               icon={<MdOutlineWork />}
             >
               <h3 className="vertical-timeline-element-title">
-                Software Engineer III
-              </h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                American Express
-              </h4>
-              <h6 className="vertical-timeline-element-city">Lisle, IL, USA</h6>
-              {/* Add work experience based on Amex project */}
-              <p>
-                - Enhanced user interfaces and user experiences, developing
-                React-based solutions to improve performance and code
-                maintainability.
-                <br />- Focused on defect resolution and code coverage
-                improvements, increasing codebase reliability and
-                maintainability.
-                <br />- Contributed to API development and integration,
-                assisting with functional schema design to enhance data handling
-                and ensure efficient service interaction.
-                <br />- Created technical documentation and functional schemas,
-                supporting project transparency, knowledge sharing, and team
-                onboarding.
-                <br />- Actively contributed to quality assurance during major
-                project releases, ensuring high standards and meeting project
-                requirements.
-                <br />- Collaborated closely with cross-functional teams to
-                troubleshoot issues and release key application updates on
-                schedule.
-                <br />- Awarded the &quot;Domain Maestro&quot; for exceptional
-                contributions and domain expertise.
-              </p>
-              <p>
-                <strong>Tech Stack:</strong> Java,Springboot, ReactJS, Selenium,
-                AWS, Jenkins, REST APIs, Docker, MongoDB, Kafka, Splunk
-                Rally, Confluence
-              </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              contentStyle={{ background: "white", color: "black" }}
-              contentArrowStyle={{ borderRight: "7px solid green" }}
-              date="Septmber 2020 - March 2021"
-              iconStyle={{ background: "#138781", color: "#fff" }}
-              icon={<MdOutlineWork />}
-            >
-              <h3 className="vertical-timeline-element-title">
-                Software Developer
+                Java Software Developer
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
                 Sears Holdings Corporation
               </h4>
               <h6 className="vertical-timeline-element-city">
-                Hoffman Estates, IL, USA
+                Hoffman Estates, IL
               </h6>
-              {/* Add work experience based on Sears project */}
               <p>
-                - Developed and maintained Java-based applications using Spring
-                Boot, ensuring code quality through JUnit testing.
-                <br />- Optimized database interactions with Hibernate,
-                improving application performance by 20%.
-                <br />- Designed and implemented scalable application
-                architectures, transforming design specifications into
-                functional code.
-                <br />- Created complex SQL queries, enhancing data persistence
-                and achieving performance improvements of up to 30%.
-                <br />- Streamlined deployment processes by implementing CI/CD
-                pipelines with Jenkins and AWS CodeDeploy, reducing deployment
-                time by 50%.
-                <br />- Provided ongoing support, troubleshooting, and
-                enhancements to meet client requirements and project timelines.
+                - Developed Spring Boot backend applications with JUnit testing.
+                <br />- Implemented REST APIs and improved MySQL performance
+                using Hibernate.
+                <br />- Boosted app efficiency with complex SQL queries and
+                scalable architecture.
+                <br />- Deployed using Jenkins CI/CD, cutting deployment time by
+                50%.
+                <br />- Delivered ongoing support and enhancements to meet
+                business goals.
               </p>
               <p>
                 <strong>Tech Stack:</strong> Java, Spring Boot, Hibernate,
-                MySQL, JUnit, Jenkins, Jira
+                MySQL, JUnit, Jenkins
               </p>
             </VerticalTimelineElement>
           </VerticalTimeline>
