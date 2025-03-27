@@ -51,8 +51,8 @@ const Experience = () => {
                 bug fixes.
               </p>
               <p>
-                <strong>Tech Stack:</strong> Java 11, Spring Boot, Oracle SQL
-                Developer, AWS (S3, Lambda, RDS), Kafka, OAuth 2.0, JWT,
+                <strong>Tech Stack:</strong> Java 17, Spring Boot,
+                Microservices, AWS (S3, Lambda, RDS), Kafka, OAuth 2.0, JWT,
                 Liquibase, Elasticsearch, JUnit5, Mockito, Docker, Kubernetes,
                 Jenkins, BitBucket
               </p>
