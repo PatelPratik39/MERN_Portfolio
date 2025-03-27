@@ -20,14 +20,24 @@ app.use(cors());
 app.use(express.json());
 
 // static files access  //removed this line in production
-app.use(express.static(path.join(__dirname, "./client/build")));
+// 
+
+console.log("Starting server...");
+console.log("Current directory:", __dirname);
 
 //routes
 app.use("/api/v1/portfolio", require("./routes/portfolioRoute"));
 
+// Serve static files from React build folder
+app.use(express.static(path.join(__dirname, "./client/build")));
+
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
+app.get("/health", (req, res) => {
+  res.send("Server is alive");
+});
+
 
 // PORT
 const PORT = process.env.PORT || 3000;
