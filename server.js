@@ -19,8 +19,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// static files access
-app.use(express.static(path.join(__dirname, "./client/dist")));
+// static files access  //removed this line in production
+// app.use(express.static(path.join(__dirname, "./client/dist")));
 
 //routes
 app.use("/api/v1/portfolio", require("./routes/portfolioRoute"));
