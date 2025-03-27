@@ -20,7 +20,7 @@ app.use(cors());
 app.use(express.json());
 
 // static files access  //removed this line in production
-// app.use(express.static(path.join(__dirname, "./client/dist")));
+app.use(express.static(path.join(__dirname, "./client/build")));
 
 //routes
 app.use("/api/v1/portfolio", require("./routes/portfolioRoute"));
