@@ -17,7 +17,7 @@ const Experience = () => {
           </h2>
           <hr />
           <VerticalTimeline>
-            <VerticalTimelineElement
+            {/* <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: "white", color: "black" }}
               contentArrowStyle={{ borderRight: "7px solid green" }}
@@ -56,13 +56,13 @@ const Experience = () => {
                 Liquibase, Elasticsearch, JUnit5, Mockito, Docker, Kubernetes,
                 Jenkins, BitBucket
               </p>
-            </VerticalTimelineElement>
+            </VerticalTimelineElement> */}
 
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: "white", color: "black" }}
               contentArrowStyle={{ borderRight: "7px solid green" }}
-              date="March 2021 - April 2024"
+              date="March 2021 - August 2024"
               iconStyle={{ background: "#138781", color: "#fff" }}
               icon={<MdOutlineWork />}
             >
